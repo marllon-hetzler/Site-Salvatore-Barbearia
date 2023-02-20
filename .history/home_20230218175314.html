@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="png/logo.ico"/>
+    <title>Salvatore Barbearia</title>
+    
+</head>
+<style>
+    @import url('https://fonts.google.com/specimen/Lobster?preview.size=28');
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        display: inline-block;
+        background-color: brown;
+        
+    }
+    #body_p{
+        align-items: center;
+        text-align: center;
+        display: inline;
+        background-color: cadetblue;  
+    }
+    footer{
+        background-color: brown;
+        height: 70px;
+    }
+    .a{
+        border: 1px solid black;
+        background-color: aquamarine;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 13px;
+        padding-right: 13px;
+
+    }
+    .a:hover{
+        text-transform:capitalize;
+        background-color:silver;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .links{
+        padding-top: 1rem;
+        display: inline-flex;
+        float: right;
+        padding-right: 13px;
+    }
+    .logo{
+        display: inline-flex;
+        float: left;
+        width: 100px;
+        height: 50px;
+        padding-left: 1rem;
+    }
+    .img_logo{
+        padding-top:10px;
+        width: 100px;
+        height: 50px;
+    }
+    .img_f{
+        width: 100px;
+        height: 50px;
+        display: inline-flex;
+        float: right;
+    }
+    .contatos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        display: inline-flex;
+        width: 150px;
+        
+    }
+    .png{
+        width: 100%;
+    }
+    .imagem{
+        width: 300px;
+        display: inline-block;
+    }
+    .text{
+        width: 500px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: inline-block;
+        
+    }
+    .pai{
+        padding: auto;
+        display:inline-block;
+        text-align: center;
+        background-color: cadetblue;          width: 100%;
+        height: 300px;
+    }
+    h1{
+        font-family:'lobster';
+    }
+    .email, .endereço, .atende{
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        padding: auto;
+      }
+    .zap{
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        float: left;
+
+        }
+    .pai1{
+        display:inline;
+        background-color: brown;
+        width: 100%;
+        height: 100px;}
+    
+    .p {
+    display: inline-flex;
+    position: relative; /* Para que a imagem não saia fora do link */
+    width: 300px;
+    padding: 5px;
+    border:1px black solid;
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+}
+    
+    .p span {
+    display: inline-flex; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */
+}
+    .p:hover span {
+    display: inline-flex; /* Tranforma o SPAN em um elemento do tipo bloco */
+    position: absolute; /* Para você poder posicionar a vontade, sem quebrar o layour em volta */
+    top: 0px; /* Para ficar na mesma altura do link */
+    left: 100%; /* Empurra a imagem para fora do link, ficando a lado do mesmo */
+    border: 1px black solid; /* Estilo extra, lembrando que você pode colocar qualquer estilo nesse elemento */
+}
+</style>
+   
+    <body id="body_p">
+        <header>
+            <div class="logo">
+                <img src="png/logo.ico" class="img_logo">
+            </div>
+            <div class="links">
+            <a href="home.html"class="a">Home</a>
+            <a href=""class="a">Serviços</a>
+            <a href=""class="a">Local</a>
+            <a href="" class="a"> Contatos </a><br>
+        </div>
+</header>
+
+        <div class="img">
+            <img src="png/espaço.jpg" class="png">
+        </div>
+        <div class="pai">
+        <div class="imagem">
+            <img src="png/logo.png" class="imagem">
+        </div>
+        <div class="text">
+            <h1>Sobre Nós</h1><br>
+            <p>Uma barbearia realmente não é apenas sobre cortes de cabelo.
+                É um lugar onde você conhece os  velhos e faz novos amigos...
+                Onde as memórias nascem ou são revividas.
+                Tudo acontece nessas cadeiras.
+                É onde trocamos idéias, experiências e fazemos a mágica do corte perfeito 
+                e da barba com estilo acontecer.
+                O que acontece na barbearia fica na barbearia. Salvatore Barbearia... mais que cortar cabelos,
+                uma experiência ! </p>
+    </div><br><br>
+    </div>
+    <div class="pai">
+        <div class="email">
+            <h2>Telefone</h2>
+            <p>(47) 99161-0992</p>
+            
+        </div>
+        <div class="endereço">
+            <h2>Nosso Endereço</h2>
+            <p>Rua 7 de Setembro,1995</p>
+            <p>Centro - Blumenau
+            </p>
+        </div>
+        <div class="atende">
+            <h2>Horário de Atendimento</h2>
+            <p>Segunda a Sexta : 09h as 21h</p>
+            <p>Sabados : 10h as 19h</p>
+        </div>
+        <h1>Serviços Oferecidos</h1>
+    </div>
+    
+    <div class="serviços">
+        <div class="p">
+            <p class=".p"><span><img src="png/barba.jpeg"></span></p>            
+        </div>
+        <div class="p">
+           <p class=".p">Barbas<span><img src="png/barba.jpeg"></span></p>
+        </div>
+    
+        <div class="p">
+            <p class=".p">Barbas<span><img src="png/barba.jpeg"><span><p>texto</p></span></span></p>
+        </div>
+        <div class="p">
+            <p class=".p">Barbas<span><img src="png/barba.jpeg"></span></p>    </div>
+</div>
+<br><br><br>
+        <footer>
+            <div class="pai1">
+            <div>
+            <img src="png/logo.png" class="img_f">
+        </div>
+        <div class="contatos">
+            <p>Cel.: (47) 99161-0992 
+            Endereço: Rua 7 de Setembro, 1995 </p>
+        </div>
+            <div class="zap">
+                <a href="https://api.whatsapp.com/send?phone=5547991610992&text=oi,%20estava%20em%20seu%20site,%20e%20fique%20interessado" class="zap"><img src="png/wat.jpeg" class="zap"></a>
+                <a href="https://www.instagram.com/barbershop_salvatore/" class="zap"><img src="png/instagram.jpeg"></a>
+            </div>
+        </div>
+        </footer>
+    </body>
+    
+
+</html>

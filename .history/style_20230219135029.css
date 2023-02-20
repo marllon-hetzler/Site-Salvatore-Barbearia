@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+
+.home{
+    max-width: 100%;
+    min-width: 15%;
+    max-height: 100%;
+    min-height: 15%;
+    width: 100%;
+}
+.info{
+    max-width: 100%;
+    min-width: 15%;
+    max-height: 100%;
+    min-height: 15%;
+    width: 100%;
+}
+.service{
+        max-width: 100%;
+        min-width: 15%;
+        max-height: 100%;
+        min-height: 15%;
+        width: 100%;   
+}
+.localiz{
+        max-width: 100%;
+        min-width: 15%;
+        max-height: 100%;
+        min-height: 15%;
+        width: 100%;
+}
+#map-9cd199b9cc5410cd3b1ad21cab2e54d3 , #wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3, #ChIJo7xRhNoY35QR20P4PLb5DRk{
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    min-height: 15%;
+    max-height: 100%;
+    min-width:15% ;
+}
+.zap{
+    width: 50px;
+    display: inline-flex;
+}
+.btn-wrap{
+    position:relative;
+    text-align:center;
+}
+.btn-wrap button{
+    position:absolute;
+    z-index:1;
+    top:50%;
+    left:10%;
+    width:1px;               /* largura para o botão */
+    height:1px;              /* altura para o botão */
+    padding:0;
+}
+.img{
+    position:absolute;
+    z-index:1;
+    top:50%;
+    left:10%;
+    width:5px;               /* largura para o botão */
+    height:5px;              /* altura para o botão */
+    padding:0;
+}

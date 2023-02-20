@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo">Clique no botão para receber as coordenadas:</p>
+<button onclick="getLocation()">Clique Aqui</button>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Seu browser não suporta Geolocalização.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude; 
+  }
+function showError(error)
+  {
+  switch(error.code)
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Localização indisponível."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="A requisição expirou."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="Algum erro desconhecido aconteceu."
+      break;
+    }
+  }
+</script>
+
+<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+    <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+    var setting = {"height":583,"width":915,"zoom":17,"queryString":"R. 7 de Setembro, 1995 - Centro, Blumenau - SC, Brasil","place_id":"ChIJo7xRhNoY35QR20P4PLb5DRk","satellite":false,"centerCoord":[-26.916988966255442,-49.074793430942236],"cid":"0x190df9b63cf843db","lang":"pt","cityUrl":"/brazil/blumenau-27214","cityAnchorText":"","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"881861"};
+    var d = document;
+    var s = d.createElement('script');
+    s.src = 'https://1map.com/js/script-for-user.js?embed_id=881861';
+    s.async = true;
+    s.onload = function (e) {
+      window.OneMap.initMap(setting)
+    };
+    var to = d.getElementsByTagName('script')[0];
+    to.parentNode.insertBefore(s, to);
+  })();</script><a href="https://1map.com/pt/map-embed">1 Map</a></div>
+</body>
+</html>
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/3653/usando-geolocalizacao-com-html5.aspx#ixzz7thyQ1OhG

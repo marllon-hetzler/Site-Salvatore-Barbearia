@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    background-color: brown;
+    
+}
+#body_p{
+    align-items: center;
+    text-align: center;
+    display: inline;
+    background-color: brown;  
+}
+footer{
+    background-color: brown;
+    height: 70px;
+}
+.a{
+    border: 1px solid black;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+.a:hover{
+    text-transform:capitalize;
+    background-color:silver;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links{
+    padding-top: 1rem;
+    display: inline-flex;
+    float: right;
+    padding-right: 13px;
+}
+.logo{
+    display: inline-flex;
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-left: 1rem;
+}
+.img_logo{
+    padding-top:10px;
+    width: 50px;
+    height: 50px;
+}
+.img_f{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    float: right;
+}
+.contatos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-flex;
+    width: 50px;
+    
+}
+.png{
+    width: 100%;
+}
+.imagem{
+    width: 300px;
+    display: inline-block;
+}
+.text{
+    width: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.pai{
+    padding: auto;
+    display:inline-block;
+    text-align: center;
+    background-color:brown;
+    width: 100%;
+    height: 300px;
+}
+
+.email, .endereço, .atende{
+    display: inline-block;
+    width: 290px;
+    height: 200px;
+    padding: auto;
+  }
+.zap{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    float: left;
+
+    }
+.pai1{
+    display:inline;
+    background-color: brown;
+    width: 100%;
+    height: 100px;}
+.barba , .corte, .selagem, .color{
+    display: inline-flex;
+    border: 1px solid black;
+}
+.text_c , .text_b,.text_color{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    border: 2px solid black;
+    padding-top: 1rem;
+    width: 400px;
+    height: 190px;
+    padding-left: 1rem;
+    display: inline-flex;
+}
+.text_s{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    border: 2px solid black;
+    padding-top: 1rem;
+    width: 380px;
+    height: 190px;
+    padding-left: 1rem;
+    display: inline-flex;}
+.text_c:hover , .text_b:hover , .text_color:hover , .text_s:hover{
+    background-color: lightblue;
+
+}
+.pai_service{
+    display: inline-flex;
+    
+}
+h1{
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.local{
+    align-items: center;
+    padding-left: 10rem;
+    padding-top: 1rem;
+}
